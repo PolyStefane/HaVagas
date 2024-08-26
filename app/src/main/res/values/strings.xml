@@ -8,4 +8,6 @@
     <string name="ex_16_99111_9867">Ex: (16) 99111-9867</string>
     <string name="residencial">Residencial</string>
     <string name="comercial">Comercial</string>
+    <string name="deseja_adicionar_um_telefone_celular">Deseja adicionar um telefone celular?</string>
+    <string name="ex_16_99345_0101">Ex: (16) 99345-0101</string>
 </resources>
