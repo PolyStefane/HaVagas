@@ -15,4 +15,6 @@
     <string name="feminino">Feminino</string>
     <string name="sexo">Sexo:</string>
     <string name="email_email_com">email@email.com</string>
+    <string name="informe_seu_nome_completo">Informe seu nome completo</string>
+    <string name="ex_dd_mm_yyyy">Ex: dd/mm/yyyy</string>
 </resources>
