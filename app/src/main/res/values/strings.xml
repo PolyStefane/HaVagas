@@ -10,4 +10,8 @@
     <string name="comercial">Comercial</string>
     <string name="deseja_adicionar_um_telefone_celular">Deseja adicionar um telefone celular?</string>
     <string name="ex_16_99345_0101">Ex: (16) 99345-0101</string>
+    <string name="data_de_nascimento">Data de nascimento:</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="sexo">Sexo:</string>
 </resources>
