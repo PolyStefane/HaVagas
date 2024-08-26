@@ -28,6 +28,10 @@
     <string name="informe_o_titulo_da_sua_monografia">Informe o titulo da sua monografia</string>
     <string name="orientador">Orientador:</string>
     <string name="informe_o_nome_do_seu_orientador">Informe o nome do seu orientador</string>
+    <string name="vagas_de_interesse">Vagas de interesse:</string>
+    <string name="informe_as_vagas_de_seu_interesse">Informe as vagas de seu interesse</string>
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
     <string-array name="formacoes">
         <item>Fundamental</item>
         <item>Médio</item>
