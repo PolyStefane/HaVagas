@@ -16,10 +16,10 @@ class Formulario(
     var instituicao : String,
     var tituloMonografia : String,
     var orientador : String,
-    var vagasIntresse: String
+    var vagasInteresse: String
 ){
 
     override fun toString(): String {
-        return "Nome: '$nome\n' Email: '$email\n' Deseja receber oportunidades por email? $desejaEmail\n Telefone: '$telefone\n' Tipo de Telefone: '$telefoneTipo\n' Deseja adicionar um celular? '$desejaCelular\n' Celular: '$celular\n' Sexo: '$sexo\n', Data de Nascimento: '$dataNascimento\n' Formação: '$formacao\n' Ano de Formaçao: '$anoFormaçao\n' Ano de Conclusão: '$anoConclusao\n' Instituição: '$instituicao\n' Titulo da Monografia: '$tituloMonografia\n' Orientador: '$orientador\n' Vagas de Intresse: '$vagasIntresse\n'"
+        return "Nome: '$nome\n' Email: '$email\n' Deseja receber oportunidades por email? $desejaEmail\n Telefone: '$telefone\n' Tipo de Telefone: '$telefoneTipo\n' Deseja adicionar um celular? '$desejaCelular\n' Celular: '$celular\n' Sexo: '$sexo\n', Data de Nascimento: '$dataNascimento\n' Formação: '$formacao\n' Ano de Formaçao: '$anoFormaçao\n' Ano de Conclusão: '$anoConclusao\n' Instituição: '$instituicao\n' Titulo da Monografia: '$tituloMonografia\n' Orientador: '$orientador\n' Vagas de Intresse: '$vagasInteresse\n'"
     }
 }
