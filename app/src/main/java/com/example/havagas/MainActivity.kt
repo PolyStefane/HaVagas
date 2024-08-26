@@ -10,5 +10,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(amb.root)
 
+
+
+
+
+        amb.btnLimpar.setOnClickListener {
+            amb.nomeEt.text.clear()
+            amb.emailEt.text.clear()
+            amb.emailCb.isChecked=false
+            amb.telefoneEt.text.clear()
+            amb.residencialRd.isChecked=false
+            amb.comercialRd.isChecked=false
+            amb.celularCb.isChecked=false
+            amb.masculinoRd.isChecked=false
+            amb.femininoRd.isChecked=false
+            amb.dataEt.text.clear()
+            amb.formacaoSp.setSelection(0)
+            amb.anoFormacaoEt.text.clear()
+            amb.anoConclusaoEt.text.clear()
+            amb.instituicaoEt.text.clear()
+            amb.tituloMonografiaEt.text.clear()
+            amb.orientadorEt.text.clear()
+            amb.vagasDeInteresseEt.text.clear()
+        }
+
     }
 }
