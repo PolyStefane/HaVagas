@@ -4,4 +4,8 @@
     <string name="nome_completo">Nome Completo:</string>
     <string name="email">Email:</string>
     <string name="deseja_receber_atualiza_es_de_oportunidades_por_email">Deseja receber atualizações de oportunidades por email?</string>
+    <string name="telefone">Telefone:</string>
+    <string name="ex_16_99111_9867">Ex: (16) 99111-9867</string>
+    <string name="residencial">Residencial</string>
+    <string name="comercial">Comercial</string>
 </resources>

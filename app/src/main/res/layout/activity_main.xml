@@ -81,6 +81,54 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailEt" />
 
+    <TextView
+        android:id="@+id/telefoneTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/telefone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailCb" />
+
+    <EditText
+        android:id="@+id/telefoneEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="@string/ex_16_99111_9867"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefoneTv" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefoneEt">
+
+        <RadioButton
+            android:id="@+id/comercialRd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comercial" />
+
+        <RadioButton
+            android:id="@+id/residencialRd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/residencial" />
+    </RadioGroup>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
