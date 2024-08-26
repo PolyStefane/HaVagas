@@ -18,6 +18,16 @@
     <string name="informe_seu_nome_completo">Informe seu nome completo</string>
     <string name="ex_dd_mm_yyyy">Ex: dd/mm/yyyy</string>
     <string name="formacao">Formação:</string>
+    <string name="ano_de_formacao">Ano de formação:</string>
+    <string name="informe_o_ano_da_sua_formacao">Informe o ano da sua formação</string>
+    <string name="ano_de_conclusao">Ano de conclusão:</string>
+    <string name="informe_o_ano_de_conclusao">Informe o ano de conclusão</string>
+    <string name="instituicao_de_ensino">Instituição de ensino:</string>
+    <string name="informe_o_nome_da_instituicao">Informe o nome da instituição</string>
+    <string name="titulo_da_monografia">Titulo da monografia:</string>
+    <string name="informe_o_titulo_da_sua_monografia">Informe o titulo da sua monografia</string>
+    <string name="orientador">Orientador:</string>
+    <string name="informe_o_nome_do_seu_orientador">Informe o nome do seu orientador</string>
     <string-array name="formacoes">
         <item>Fundamental</item>
         <item>Médio</item>

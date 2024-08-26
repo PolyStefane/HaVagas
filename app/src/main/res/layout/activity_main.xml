@@ -245,6 +245,109 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/formacaoTv" />
 
+        <LinearLayout
+            android:id="@+id/fundamentalAoMedioLt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/formacaoSp">
+
+            <TextView
+                android:id="@+id/anoFormacaoTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ano_de_formacao" />
+
+            <EditText
+                android:id="@+id/anoFormacaoEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/informe_o_ano_da_sua_formacao"
+                android:inputType="number" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/graduacaoAEspecializacaoLt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fundamentalAoMedioLt">
+
+            <TextView
+                android:id="@+id/anoConclusaoTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ano_de_conclusao" />
+
+            <EditText
+                android:id="@+id/anoConclusaoEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/informe_o_ano_de_conclusao"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/instituicaoTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instituicao_de_ensino" />
+
+            <EditText
+                android:id="@+id/instituicaoEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/informe_o_nome_da_instituicao"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mestradoAoDoutoradoLt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/graduacaoAEspecializacaoLt">
+
+            <TextView
+                android:id="@+id/tituloMonografiaTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_da_monografia" />
+
+            <EditText
+                android:id="@+id/tituloMonografiaEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/informe_o_titulo_da_sua_monografia"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/orientadorTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/orientador" />
+
+            <EditText
+                android:id="@+id/orientadorEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/informe_o_nome_do_seu_orientador"
+                android:inputType="text" />
+
+        </LinearLayout>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
