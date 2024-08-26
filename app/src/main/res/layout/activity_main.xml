@@ -365,7 +365,35 @@
             android:inputType="text"
             app:layout_constraintTop_toBottomOf="@+id/vagasDeInteresseTv" />
 
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="#165989"
+            android:text="@string/salvar"
+            android:textColor="#c8dde8"
+            app:layout_constraintBottom_toBottomOf="@+id/btnLimpar"
+            app:layout_constraintEnd_toStartOf="@+id/btnLimpar"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnLimpar" />
 
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#165989"
+            android:text="@string/limpar"
+            android:textColor="#c8dde8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnSalvar"
+            app:layout_constraintTop_toBottomOf="@+id/vagasDeInteresseEt" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
