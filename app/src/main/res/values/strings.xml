@@ -2,4 +2,6 @@
     <string name="app_name">HaVagas</string>
     <string name="havagas">HaVagas</string>
     <string name="nome_completo">Nome Completo:</string>
+    <string name="email">Email:</string>
+    <string name="deseja_receber_atualiza_es_de_oportunidades_por_email">Deseja receber atualizações de oportunidades por email?</string>
 </resources>
